@@ -264,9 +264,13 @@ header nav ul.liste-items li a:hover {
 }
 
 .articles .github,
-.articles .git,
-.articles .bootstrap {
+.articles .git
+ {
     border-bottom: 1px solid #FFF;
+    padding-bottom: 50px;
+}
+
+.articles .bootstrap {
     padding-bottom: 50px;
 }
 
@@ -321,6 +325,21 @@ header nav ul.liste-items li a:hover {
 
 .mon-cv ul li {
     list-style: none;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border-top: 1px solid var(--couleur-typo-jaune);
+    margin-top: 20px;
+}
+
+footer .copyright span {
+    color: var(--couleur-typo-jaune);
 }
 
 /* Responsive */
