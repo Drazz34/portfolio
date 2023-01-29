@@ -241,6 +241,8 @@ header nav ul.liste-items li a:hover {
     background-color: var(--couleur-typo-jaune);
     padding: 5px 15px;
     border-radius: 50px;
+    width: 140px;
+    text-align: center;
 }
 
 .menu-veille a:hover {
