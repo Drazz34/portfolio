@@ -414,3 +414,15 @@ footer .copyright span {
         transform: none;
     }
 }
+
+@media screen and (max-width: 460px) {
+    .menu-veille {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu-veille a:nth-child(2) {
+        margin: 8px 0;
+    }
+}
