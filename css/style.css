@@ -329,6 +329,16 @@ header nav ul.liste-items li a:hover {
     list-style: none;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo svg {
+    margin: 15px 15px;
+}
+
 /* Footer */
 
 footer {
