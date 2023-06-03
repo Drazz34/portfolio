@@ -214,6 +214,7 @@ header nav ul.liste-items li a:hover {
 
 .mes-rea {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 50px;
 }
@@ -221,6 +222,7 @@ header nav ul.liste-items li a:hover {
 .mes-rea .center {
     text-align: center;
     width: 390px;
+    margin-bottom: 100px;
 }
 
 .mes-rea .rea-p {
@@ -238,6 +240,11 @@ header nav ul.liste-items li a:hover {
 
 .mes-rea .rea-lien:hover {
     background-color: rgba(255, 255, 0, 0.7);
+}
+
+.mes-rea .logo-lafleur {
+    padding: 10px;
+    background-color: antiquewhite;
 }
 
 /* Page Veilles techno */
@@ -373,15 +380,10 @@ footer .copyright span {
 /* Responsive */
 
 @media screen and (max-width: 1200px) {
-
     .cartes,
     .mes-rea {
         flex-direction: column;
         align-items: center;
-    }
-
-    .mes-rea .lecteur-audio {
-        margin: 75px 0;
     }
 }
 

@@ -4,7 +4,7 @@
 
     <p class="dev">Développeur <span id="texte"></span></p>
 
-    <p>En reconversion professionnelle en tant que développeur web / web mobile</p>
+    <p>Développeur web / web mobile</p>
 
 </div>
 

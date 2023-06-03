@@ -36,4 +36,24 @@
 
     </div>
 
+    <div class="lafleur center">
+
+        <a href="https://villac.needemand.com/site_lafleur/"><img src="./assets/img/lafleur.svg" class="rea-img logo-lafleur" alt="lafleur"></a>
+
+        <p class="rea-p">Mon projet fil rouge :<br><br> Création d'un site e-commerce d'une boutique de fleur.</p>
+
+        <a href="https://villac.needemand.com/site_lafleur/" class="rea-lien">Le site</a>
+
+    </div>
+
+    <div class="wordpress center">
+
+        <a href="https://villac.needemand.com/lafleur/wordpress"><img src="./assets/img/wordpress.jpg" class="rea-img" alt="wordpress"></a>
+
+        <p class="rea-p">Mon projet fil rouge :<br><br> Création d'un blog de photographie en WordPress.</p>
+
+        <a href="https://villac.needemand.com/lafleur/wordpress" class="rea-lien">Le site</a>
+
+    </div>
+
 </div>
