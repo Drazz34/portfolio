@@ -17,6 +17,9 @@ body {
     background-color: var(--couleur-bg);
     font-family: 'Poppins', sans-serif;
     color: var(--couleur-typo-blanche);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Header et Nav */
@@ -289,8 +292,7 @@ header nav ul.liste-items li a:hover {
 }
 
 .articles .github,
-.articles .git
- {
+.articles .git {
     border-bottom: 1px solid #FFF;
     padding-bottom: 50px;
 }
@@ -365,6 +367,9 @@ header nav ul.liste-items li a:hover {
 /* Footer */
 
 footer {
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -380,6 +385,7 @@ footer .copyright span {
 /* Responsive */
 
 @media screen and (max-width: 1200px) {
+
     .cartes,
     .mes-rea {
         flex-direction: column;
